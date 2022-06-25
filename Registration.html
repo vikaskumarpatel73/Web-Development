@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    <h3>Register yourself</h3>
+    <p>We are collecting your data to know more about yourself.It is safe with us.</p>
+    <hr>
+    <h3>Personal details</h3>
+    <div>
+        First Name: <input type="text" name="firstname">
+    </div>
+    <br>
+    <div>
+        Middle Name: <input type="text" name="middlename">
+    </div>
+    <br>
+    <div>
+        Last Name: <input type="text" name="lastname">
+    </div>
+    <br>
+    <div>
+    <label for="branch">Branch:</label>
+    <select name="mybranch" id="Branch">
+        <option value="CSE">Computer Science and Engineering</option>
+        <option value="IT">Information Technology</option>
+        <option value="AI">Artificial Intelligence</option>
+        <option value="ECE">Electronics and communication Engineering</option>
+        <option value="EEE">Electrical and Electronic Engineering</option>
+        <option value="Mech">Mechanical Engineering</option>
+        <option value="Civil">CivilEngineering</option>
+        <option value="Chem">Chemical Engineering</option>
+        <option value="Meta">Metallurgical Engineering</option>
+        <option value="Mine">Mining Engineering</option>
+    </select>
+    </div>
+    <br>
+    <div>
+        Date of Birth: <input type="date" value="dob">
+    </div>
+    <br>
+    <div>
+        Age: <input type="number" name="age">
+    </div>
+    <br>
+    <div>
+        Mobile Number: <input type="number" name="contact">
+    </div>
+    <br>
+    <div>
+        Email Id: <input type="email" name="email">
+    </div>
+    <br>
+    <div>
+        Gender: Male <input type="radio" name="mygender">Female <input type="radio" name="mygender">Other <input type="radio" name="mygender">
+    </div>
+    <br>
+    <div>
+        Write about yourself: <textarea name="mytext" cols="50" rows="10"></textarea>
+    </div>
+    <br>
+    <hr>
+    <h3>Other Details</h3>
+    <div>
+        <label for="check">Known Programming Languages:</label> Python<input type="checkbox" name="py"> Java <input type="checkbox" name="java"> Cpp <input type="checkbox" name="c++"> C <input type="checkbox" name="c+"> Others <input type="checkbox" name="other">
+    </div>
+    <br>
+    <div>
+        Level: Basic <input type="radio" name="mylevel"> Intermediate <input type="radio" name="mylevel"> Expert <input type="radio" name="mylevel">
+    </div>
+    <hr>
+    <h3>Login Page</h3>
+    <div>
+        Username: <input type="text" name="username">
+    </div>
+    <br>
+    <div>
+        Password: <input type="password" name="password">
+    </div>
+    <br>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+    <br>
+    <p> Copyright &copy; to Web Development Family</p>
+</body>
+</html>
